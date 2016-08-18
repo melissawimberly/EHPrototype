@@ -21,6 +21,12 @@
 	text-align: center;
 }
 
-#signin .logo{
-	
+#quiz-loader {
+	display: none;
+	font-size: 75px;
+}
+
+#quiz-loader i.fa-spinner{
+	margin: 15% 50%;
+
 }
