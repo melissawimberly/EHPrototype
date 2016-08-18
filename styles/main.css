@@ -37,11 +37,9 @@
 
 
 
-*{
-    font-family: 'Open Sans', sans-serif;
-}
+/*Profile Page*/
 
-.well {
+#profile .well {
     margin-top:-20px;
     background-color:#007FBD;
     border:2px solid #0077B2;
@@ -52,7 +50,7 @@
     border-radius: 0px !important;
 }
 
-.well:hover {
+#profile .well:hover {
     margin-top:-20px;
     background-color:#0077B2;
     border:2px solid #0077B2;
@@ -64,7 +62,7 @@
     border-bottom : 2px solid rgba(97, 203, 255, 0.65);
 }
 
-body {
+body#profile  {
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 14px;
 line-height: 1.42857143;
@@ -74,14 +72,14 @@ background-color: #F1F1F1;
 
 
 
-.bg_blur
+#profile .bg_blur
 {
     background-image:url('../imgs/missy_prof-pic.jpg');
     height: 300px;
     background-size: cover;
 }
 
-.follow_btn {
+#profile .follow_btn {
     text-decoration: none;
     position: absolute;
     left: 35%;
@@ -97,7 +95,7 @@ background-color: #F1F1F1;
     border: 4px solid #007FBE;
 }
 
-.follow_btn:hover {
+#profile .follow_btn:hover {
     text-decoration: none;
     position: absolute;
     left: 35%;
@@ -113,13 +111,13 @@ background-color: #F1F1F1;
     border: 4px solid rgba(255, 255, 255, 0.8);
 }
 
-.header{
+#profile .header{
     color : #808080;
     margin-left:10%;
     margin-top:70px;
 }
 
-.picture{
+#profile .picture{
     height:150px;
     width:150px;
     position:absolute;
@@ -127,21 +125,21 @@ background-color: #F1F1F1;
     left:-75px;
 }
 
-.picture_mob{
+#profile .picture_mob{
     position: absolute;
     width: 35%;
     left: 35%;
     bottom: 70%;
 }
 
-.btn-style{
+#profile .btn-style{
     color: #fff;
     background-color: #007FBE;
     border-color: #adadad;
     width: 33.3%;
 }
 
-.btn-style:hover {
+#profile .btn-style:hover {
     color: #333;
     background-color: #3D5DE0;
     border-color: #adadad;
@@ -151,13 +149,11 @@ background-color: #F1F1F1;
 
 
 @media (max-width: 767px) {
-    .header{
+    #profile .header{
         text-align : center;
     }
     
-    
-    
-    .nav{
+    #profile .nav{
         margin-top : 30px;
     }
 }
