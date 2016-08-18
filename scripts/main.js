@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$('#signin').hide();
 		$('#quiz-loader').show();
 		setTimeout(function(){
-			$("<a href='./quiz.html'></a>").click();
+			window.location.replace("./quiz.html");
 		}, 3000);
 	})
 });
