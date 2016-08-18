@@ -1,0 +1,26 @@
+/*Main Page*/
+#superheros-logo{
+	margin: 0 auto;
+}
+
+
+/*Signin Page*/
+#signin .container{
+	padding: 30px;
+}
+
+#signin .login-btn{
+	border-radius: 4px;
+	border: 0;
+	padding: 10px 0;
+	margin-top: 15px;
+	width: 80%;
+}
+
+#signin .login-submit{
+	text-align: center;
+}
+
+#signin .logo{
+	
+}
