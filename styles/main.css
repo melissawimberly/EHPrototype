@@ -46,7 +46,7 @@
     background-color:#007FBD;
     border:2px solid #0077B2;
     text-align:center;
-    cursor:pointer;
+    /*cursor:pointer;*/
     font-size: 25px;
     padding: 15px;
     border-radius: 0px !important;
@@ -57,7 +57,7 @@
     background-color:#0077B2;
     border:2px solid #0077B2;
     text-align:center;
-    cursor:pointer;
+    /*cursor:pointer;*/
     font-size: 25px;
     padding: 15px;
     border-radius: 0px !important;
@@ -149,6 +149,16 @@ background-color: #F1F1F1;
    
 }
 
+
+/*hotfix for demo*/
+.quiz {
+    color: #000;
+}
+
+#index {
+    color:#222;
+    background: #fff;
+}
 
 @media (max-width: 767px) {
     .header{
